@@ -1,0 +1,7 @@
+echo "the user is: $USER"
+echo "shell is: $SHELL"
+echo "Home directory is: $HOME"
+echo "today is: $(date)"
+echo "Curret users: $(who)"
+echo "System: $(uname)"
+echo "uptime info: $(uptime)"
