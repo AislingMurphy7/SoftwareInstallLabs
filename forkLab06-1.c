@@ -8,8 +8,6 @@
  
      printf ( "The main program process ID is %d\n\n", getpid() ); 
      printf ( "Calling fork now\n\n" ); 
-     // The return value to the parent process will be the Process ID (PID) of the child 
-     // The child gets a return value of 0 
    
      pid = fork(); 
      printf ( "fork has been called, pid returned is %d\n", pid ); 
